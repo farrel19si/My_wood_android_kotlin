@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--TODO 3 Buat layout baru dan atur tampilannya-->
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/is_iv_student_photo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/mywood" />
+
+        <TextView
+            android:id="@+id/is_tv_student_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/is_iv_student_photo"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="Nama Pembeli"/>
+
+        <TextView
+            android:id="@+id/is_tv_student_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/is_tv_student_name"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/is_iv_student_photo"
+            android:textSize="18sp"
+            tools:text="Nama Barang" />
+        <TextView
+            android:id="@+id/tvAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/is_tv_student_age"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/is_iv_student_photo"
+            android:textSize="15sp"
+            tools:text="Harga" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

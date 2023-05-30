@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyWood</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="tampilan_normal">Tampilan Normal</string>
+    <string name="tamplian_hybrid">Tampilan Hybrid</string>
+    <string name="tampilan_satelit">Tampilan satelit</string>
+    <string name="tampilan_terrain">Tampilan Terrain</string>
+</resources>
